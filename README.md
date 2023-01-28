@@ -1,4 +1,5 @@
-# :wave: The Basics of GitHub 
+### Daniel Ramirez
+# :wave: The Basics of GitHub
 
 ## 🤓 Course overview and learning outcomes 
 
