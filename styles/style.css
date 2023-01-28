@@ -3,6 +3,14 @@ html {
     font-family: monospace;
 }
 
+#head {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: azure;
+}
+
 #calc {
     display: flex;
     min-height: 95vh;
