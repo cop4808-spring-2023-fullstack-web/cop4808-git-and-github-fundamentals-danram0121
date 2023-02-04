@@ -32,6 +32,9 @@ function clickButton() {
             } else if(buttons[i].classList.contains('equals')) {
                 inputEquals();
                 updateDisplay();
+            } else if(buttons[i].classList.contains('square')) {
+                inputSquare(displayValue);
+                updateDisplay();
             } else if(buttons[i].classList.contains('decimal')) {
                 inputDecimal(buttons[i].value);
                 updateDisplay();
@@ -130,6 +133,10 @@ function inputEquals() {
     }
 }
 
+function inputSquare(num) {
+    displayValue = (num * num).toString();
+}
+
 function inputDecimal(dot) {
     if(displayValue === firstOperand || displayValue === secondOperand) {
         displayValue = '0';
@@ -182,3 +189,4 @@ function operate(x, y, op) {
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
+
