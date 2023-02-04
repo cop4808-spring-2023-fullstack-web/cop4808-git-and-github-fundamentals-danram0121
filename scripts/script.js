@@ -35,7 +35,13 @@ function clickButton() {
             } else if(buttons[i].classList.contains('square')) {
                 inputSquare(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('decimal')) {
+            } else if(buttons[i].classList.contains('squareRoot')) {
+                inputSquareRoot(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('pi')) {
+                inputPi();
+                updateDisplay();
+            }   else if(buttons[i].classList.contains('decimal')) {
                 inputDecimal(buttons[i].value);
                 updateDisplay();
             } else if(buttons[i].classList.contains('percent')) {
@@ -135,6 +141,14 @@ function inputEquals() {
 
 function inputSquare(num) {
     displayValue = (num * num).toString();
+}
+
+function inputSquareRoot(num) {
+    displayValue = Math.sqrt(num).toString();
+}
+
+function inputPi() {
+    displayValue = Math.PI.toString();
 }
 
 function inputDecimal(dot) {
