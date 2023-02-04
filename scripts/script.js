@@ -41,7 +41,10 @@ function clickButton() {
             } else if(buttons[i].classList.contains('pi')) {
                 inputPi();
                 updateDisplay();
-            }   else if(buttons[i].classList.contains('decimal')) {
+            } else if(buttons[i].classList.contains('e')) {
+                inputE();
+                updateDisplay();
+            } else if(buttons[i].classList.contains('decimal')) {
                 inputDecimal(buttons[i].value);
                 updateDisplay();
             } else if(buttons[i].classList.contains('percent')) {
@@ -149,6 +152,10 @@ function inputSquareRoot(num) {
 
 function inputPi() {
     displayValue = Math.PI.toString();
+}
+
+function inputE() {
+    displayValue = Math.E.toString();
 }
 
 function inputDecimal(dot) {
