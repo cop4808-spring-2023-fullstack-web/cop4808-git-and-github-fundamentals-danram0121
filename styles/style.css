@@ -61,6 +61,21 @@ button {
     grid-column: span 2;
 }
 
+.special {
+    background-color: #20262E;
+    color: #E9E8E8;
+}
+
+.special:active {
+    background-color: #20262e6e;
+    color: #E9E8E8;
+}
+
+.special.focus:focus {
+    background-color: #20262e6e;
+    color: #E9E8E8;
+}
+
 .operator {
     background-color: #FF8F1F;    
 }
