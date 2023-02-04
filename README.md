@@ -24,3 +24,8 @@ This Calculator project is expanding on the work of mrbuddh4's calculator app
 : this function will give the value of pi which can be used with any of the operators (i.e. /, \*, +, -,) as well as '%', '+/-', 'x&#xb2;', '&#8730;' .
 
 ![square Root function gif](/res/pi.gif)
+
+**e** - _e_;
+: this function will give the value of Euler's number which can be used with any of the operators (i.e. /, \*, +, -,) as well as '%', '+/-', 'x&#xb2;', '&#8730;' .
+
+![square Root function gif](/res/e.gif)
